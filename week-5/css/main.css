@@ -1,4 +1,4 @@
-body{
+body {
     color: darkslategray;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,82 +11,89 @@ p {
     background-color: lightgray;
 }
 
-h1, h2, h3, h4{
-text-decoration: underline;
+h1,
+h2,
+h3,
+h4 {
+    text-decoration: underline;
 }
 
-nav ul{
+nav ul {
     list-style: none;
 }
 
-nav ul a{
+nav ul a {
     color: inherit;
     text-decoration: none;
 }
 
-#treatofweek{
-background-color:lightgray;
+#treatofweek {
+    background-color: lightgray;
 }
 
-.lightgray-link{
+.lightgray-link {
     background-color: burlywood;
     color: darkslategray;
     text-decoration: none;
 }
 
-.large-text{
+.large-text {
     font-size: 24px;
 }
 
-article>p{
+article>p {
     font-size: 24px;
 }
 
-h3+ul{
+h3+ul {
     border: 1px solid black;
 }
 
-[href="#treatofweek"]{
+[href="#treatofweek"] {
     font-weight: bold;
 }
 
-nav ul a, nav ul a:link, nav a:visited{
+nav ul a,
+nav ul a:link,
+nav a:visited {
     background-color: burlywood;
     box-shadow: -2px 2px 4px 2px black;
 }
 
-nav ul a:hover, nav ul a:focus{
+nav ul a:hover,
+nav ul a:focus {
     text-decoration: underline;
 }
 
-nav ul a:active{
+nav ul a:active {
     box-shadow: 0 0 4px 2px black;
 }
 
-aside ul li:first-child{
+aside ul li:first-child {
     font-weight: bold;
 }
 
-section ol li:last-child{
+section ol li:last-child {
     font-weight: bold;
 }
 
-table{
+table {
     border-collapse: collapse;
 }
 
-tbody tr:nth-child(even){
+tbody tr:nth-child(even) {
     background-color: lightgray;
 }
 
-table th:nth-child(n), table td:nth-child(n){
+table th:nth-child(n),
+table td:nth-child(n) {
     border: 1px solid black
 }
 
-table td:nth-child(2n+1){
+table td:nth-child(2n+1) {
     background-color: lightslategrey
 }
 
-footer{
+footer {
     background-color: lightgray;
 }
