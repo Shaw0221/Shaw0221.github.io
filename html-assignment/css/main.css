@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header,
+footer{
+    background-color: lightgray;
+}
+
+.site-title{
+    color: darkslategray;
+}
+
+#my-image{
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+aside ul{
+    list-style: square;
+}
+
+aside ul li:nth-child(odd){
+    background-color: lightslategray;
+}
+
+nav ul{
+    list-style: none;
+    border: 1px solid black;
+}
+
+nav ul a{
+    text-decoration: none;
+    background-color: paleturquoise
+}
+
+nav ul a:hover,
+nav ul a:focus{
+    background-color: turquoise;
+}
