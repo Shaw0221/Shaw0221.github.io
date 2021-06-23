@@ -6,3 +6,15 @@ h1{
     color: white;
     background-image: url(../images/lone-starfish-wide.jpg);
 }
+
+nav li{
+    display: inline;
+}
+
+a{
+    background-color: #d4e9e7
+}
+
+img{
+    float: left;
+}
