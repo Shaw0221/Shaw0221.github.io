@@ -18,3 +18,16 @@ a{
 img{
     float: left;
 }
+
+.contactborder{
+    border: 1px solid black;
+}
+
+.clear{
+    clear: left;
+}
+
+.box{
+    background-color: #d4e9e7;
+}
+  
