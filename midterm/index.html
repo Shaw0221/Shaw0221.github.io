@@ -11,23 +11,24 @@
 
     <main class="box">
 
-        <header>
-            <h1>Lone Starfish</h1>
+        <header class="container">
+            <img src="../midterm/images/lone-starfish-wide.jpg" alt="Starfish Wide Shot" width="700">
+            <h1 class="centered">Lone Starfish</h1>
         </header>
 
-        <nav role="navigation" class="box">
+        <nav role="navigation">
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="#Story">STORY</a></li>
+                <li class="centertext"><a href="#Story">STORY</a></li>
                 <li><a href="#Contact">CONTACT</a></li>
             </ul>
         </nav>
-        
+
         <article>
 
             <h2 id="Story">Life of a Starfish</h2>
 
-            <img width="200" height="200" src="../midterm/images/lone-starfish.jpg" alt="Image of a Starfish">
+            <img src="../midterm/images/lone-starfish.jpg" alt="Image of a Starfish">
 
             <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa
                 silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian
@@ -60,17 +61,17 @@
                 <form action="thanks.html" method="post">
 
                     <div>
-                        <label for="fullname">Your Name</label>
+                        <legend for="fullname">Your Name</legend>
                         <input type="text" id="fullname" name="fullname" required>
                     </div>
 
                     <div>
-                        <label for="youremail">Your Email</label>
+                        <legend for="youremail">Your Email</legend>
                         <input type="email" id="youremail" name="youremail" required>
                     </div>
 
                     <div>
-                        <label for="message">Your Message</label>
+                        <legend for="message">Your Message</legend>
                         <textarea name="message" id="message" cols="90" rows="5"></textarea>
                     </div>
 

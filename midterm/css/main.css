@@ -3,17 +3,20 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+header{
     color: white;
-    background-image: url(../images/lone-starfish-wide.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
+    text-align: center
 }
 
 nav li{
     display: inline;
-    margin: 0 10px;
+    text-align: center;
+    padding: 4em;
+}
+
+.centertext{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 nav ul{
@@ -23,11 +26,7 @@ nav ul{
     text-align: center;
 }
 
-a{
-    background-color: #d4e9e7
-}
-
-img{
+article > img{
     float: left;
     padding: 1em
 }
@@ -35,8 +34,6 @@ img{
 .contactborder{
     border: 1px solid black;
 }
-
-
 
 .clear{
     clear: left;
@@ -51,4 +48,20 @@ img{
 footer{
     text-align: right;
 }
-  
+
+
+.container {
+    position: relative;
+    text-align: center;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  article > img{
+      width:35%
+  }
