@@ -68,10 +68,12 @@ footer {
 input,
 textarea {
     display: block;
+    width: 100%
 }
 
 input[type=radio] {
-    display: inline
+    display: inline-block;
+    width: auto
 }
 
 .button {
