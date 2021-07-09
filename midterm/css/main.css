@@ -5,38 +5,37 @@ body{
 
 header{
     color: white;
-    text-align: center
 }
 
 nav li{
-    display: inline;
+    display: inline-block;
+    padding: 1em;
     text-align: center;
-    padding: 4em;
+    width:25%;
 }
 
-.centertext{
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-}
-
-nav ul{
+nav ul a{
     list-style: none outside none;
-    margin:0;
-    padding: 0;
-    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-size: 1.5em;
+}
+
+nav ul a:hover,
+nav ul a:focus{
+    text-decoration: underline;
 }
 
 article > img{
     float: left;
-    padding: 1em
+    margin-right: 1em;
+    margin-bottom: 1em;
+    width:35%;
 }
 
 .contactborder{
     border: 1px solid black;
-}
-
-.clear{
-    clear: left;
+    padding:1em
 }
 
 .box{
@@ -55,6 +54,10 @@ footer{
     text-align: center;
   }
 
+.container > img{
+    width: 100%;
+}
+
   .centered {
     position: absolute;
     top: 50%;
@@ -62,6 +65,22 @@ footer{
     transform: translate(-50%, -50%);
   }
 
-  article > img{
-      width:35%
+input, textarea{
+      display:block;
   }
+
+  input[type=radio]{ 
+    display:inline
+  }
+
+  .button{
+      background: none;
+      border:1px solid black;
+      padding: 0.5em
+  }
+
+  .maintext{
+    padding: 0 20px;
+  }
+
+
