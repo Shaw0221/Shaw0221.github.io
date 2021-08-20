@@ -1,6 +1,6 @@
 header{
-    background-color: black;
-    padding: 1.5em
+    background-color: #222222;
+    padding: 1.5em;
 }
 
 body{
@@ -27,6 +27,20 @@ nav li form{
         width: 50%;
 }
 
+.button{
+    background:none;
+    border: 1px solid #c78b07;
+    line-height: 3em;
+}
+
+.button > i{
+    color:#c78b07;
+}
+
+.searchbar > input{
+    line-height: 3em;
+}
+
 nav a,
 nav a:link,
 nav a:visited{
@@ -45,13 +59,20 @@ nav a.current{
 .welcome{
     background:url(../images/main-banner.jpg) no-repeat center;
     background-size: cover;
-    padding:25em
+    padding: 20em
 }
 
 .welcome div{
     display: inline-block;
+    color: white;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2em;
 }
 
+.welcome h1{
+    font-size: 6em;
+}
 
 .welcome a{
     background-color: #c78b07;
@@ -62,11 +83,62 @@ nav a.current{
 }
 
 footer{
-    background-color: black;
+    background-color: #222222;
     color: #c78b07;
     padding: 2em;
 }
 
-.aboutus, .digital, .marketing, .video, .web, .print, .john, .bob{
-    background-color:#ffe6ac;
+.aboutus{
+    background:#ffe6ac;
+    height: 30em;
+    padding: 1.5em;
 }
+
+.aboutus img{
+    float: left;
+    margin-right: 1em;
+}
+
+.aboutus h2{
+    font-size: 3em;
+}
+
+.digital, .marketing, .video, .web, .print{
+    background: #ffe6ac;
+}
+
+.services{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+   justify-content: center;
+   align-content: center;
+   gap: 1em;
+   padding: 5em
+}
+
+.digital{
+    grid-column: 1/ span 3;
+}
+
+.marketing{
+    grid-column: 4/ span 3;
+}
+
+.video{
+    grid-column: 1/ span 2;
+}
+
+.web{
+    grid-column: 3/ span 2;
+}
+
+.print{
+    grid-column: 5/span 2;
+}
+
+
+
+
+
+
